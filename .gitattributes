@@ -1,0 +1,4 @@
+forecasts.nc filter=lfs diff=lfs merge=lfs -text
+AnEn.nc filter=lfs diff=lfs merge=lfs -text
+analysis.nc filter=lfs diff=lfs merge=lfs -text
+bias_corrected_anen.RData filter=lfs diff=lfs merge=lfs -text
