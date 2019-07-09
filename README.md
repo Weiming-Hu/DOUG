@@ -2,6 +2,8 @@
 
 ### Overview
 
+**Please make sure you have installed [Git Large File Storage](https://git-lfs.github.com/) when you clone this repository to be able to down the data files.**
+
 This is the repository for the Dynamically Optimized Unstructured Grid algorithm. The associated paper is 
 
 Weiming Hu, Guido Cervone, Dynamically Optimized Unstructured Grid (DOUG) for Analog Ensemble of Numerical Weather Predictions Using Evolutionary Algorithms.
@@ -28,13 +30,15 @@ Please make sure R is installed with the following packages available:
 - velox
 - RAnEn
 
-To install `RAnEn`, please use the zip file `RAnEn_2.1.1.tar.gz`. Please run the following command in R:
+To install `RAnEn`, please run the following command in R:
 
 ```
-install.packages('RAnEn_2.1.1.tar.gz', type = 'source', repo = NULL)
+install.packages("https://github.com/Weiming-Hu/AnalogsEnsemble/raw/master/RAnalogs/releases/RAnEn_latest.tar.gz", repos = NULL)
 ```
 
-Please make sure you have [Git LFS](https://git-lfs.github.com/) when you download this repository. Otherwise, you won't be able to download the test data.
+More information about `RAnEn` can be found [here](https://weiming-hu.github.io/AnalogsEnsemble/).
+
+**Please make sure you have installed [Git Large File Storage](https://git-lfs.github.com/) when you clone this repository to be able to down the data files.**
 
 ### Usage
 
